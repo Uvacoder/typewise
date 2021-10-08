@@ -22,7 +22,7 @@ class FontCard extends React.Component {
               </a>
             </button>
             <button className="card-btn card-btn-right">
-              <a href={this.props.downloadLink} target="_blank">
+              <a href={this.props.downloadLink} rel="noopener noreferrer" target="_blank">
                 Download
               </a>
             </button>
