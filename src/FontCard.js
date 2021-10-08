@@ -17,7 +17,7 @@ class FontCard extends React.Component {
           </div>
           <div className="card-footer">
             <button className="card-btn">
-              <a href={this.props.siteLink} target="_blank">
+              <a href={this.props.siteLink} rel="noopener noreferrer" target="_blank">
                 Google Fonts
               </a>
             </button>
