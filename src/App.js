@@ -49,7 +49,7 @@ class App extends Component {
 
   render() {
     const filteredFonts = this.state.filteredFonts;
-    const { activeFilter } = this.state;
+    // const { activeFilter } = this.state;
 
     return (
       <div className="App">
